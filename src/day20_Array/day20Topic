@@ -1,0 +1,44 @@
+
+Java Day20
+Topic: Arrays Intro
+
+Package name: day20_Arrays
+
+Array:
+	1. Single Dimensional
+	2. Arrays Utility
+	3. For Each Loop
+	4. Multi-dimensional array
+
+
+Data Structure: to use the data efficiently, store data in organized manner
+
+		1. Array (size is fixed, supports primitives & non-primitives)
+		2. Collection (size is not fixed, ONLY supports non-primitives)
+		3. Map (size is not fixed, ONLY supports non-primitives)
+
+
+regular variables:
+	String name = "David"; //, "Josh"
+	int number = 100;
+
+
+
+Arrays Utility:
+			class name: Arrays
+			package: java.util
+
+
+
+default values:
+	non-primiitives: null
+	primitives:
+		byte, short, int, long ===> 0
+		float, double ===> 0.0
+		boolean ==> false
+
+
+
+
+
+
