@@ -1,0 +1,52 @@
+Day39_Recap
+ Topic Recap
+        OOP Encaplsulation
+        OOP Inheritance
+
+
+
+  Shape:
+        variables:
+                name
+
+        Encapsulate the filed
+        Add a constructor to set the field
+        Methods:
+               area(){}
+               perimeter(){}
+
+
+    Square extends Shape:
+         variables:
+             side:
+
+         Encapsulate the field
+         Add a constructor to set the field
+
+         area(): side * side
+         perimeter(): side * 4
+         toString() : side, area, perimeter
+
+    Rectangle extends Shape:
+         variables:
+            length
+            width
+
+         Encapsulate the field
+         Add a constructor to set the field
+
+         area(): length * width
+         perimeter(): 2 * (width)
+
+
+    Circle extends Shape:
+          variables
+             radius
+             pi
+          Encapsulate the field
+         Add a constructor to set the field
+
+    Triangle extends Shape:
+
+         Encapsulate the field
+        Add a constructor to set the field
