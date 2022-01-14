@@ -1,4 +1,4 @@
-package day37_Inheritance.animalTask;
+package day31_Constructor.day37_Inheritance.animalTask;
 
 public class Parrot extends Animal{
 

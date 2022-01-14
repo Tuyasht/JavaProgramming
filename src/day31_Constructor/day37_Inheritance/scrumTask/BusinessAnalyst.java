@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package day31_Constructor.day37_Inheritance.scrumTask;
 
 public class BusinessAnalyst extends Employee{
 
