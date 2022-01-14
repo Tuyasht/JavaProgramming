@@ -19,28 +19,10 @@ public class Car {
 
     public void start() {
         System.out.println(brand+" "+model+" is driving");
-
     }
-
     public void drive() {
-
         System.out.println(brand+" "+model+" is driving");
     }
-
-  /*
-    public void fly(){
-        // fly() is not common for all the cars,
-    }
-  /*
-}
-/*
-  Create a class called Car
-            Instance variable:
-              brand, model, year, price, color, miles
-
-
-
- */
 
     public String toString() {
         return "Car{" +
