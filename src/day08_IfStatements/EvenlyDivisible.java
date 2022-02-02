@@ -1,7 +1,5 @@
 package day08_IfStatements;
 
-import HomeWork.LeapYear;
-
 public class EvenlyDivisible {
     public static void main(String[] args) {
 

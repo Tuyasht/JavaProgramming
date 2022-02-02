@@ -11,7 +11,7 @@ public class GradeReport {
         0 ~ 59: Failed
          */
 
-        int score = 95;
+        int score = 50;
 
         if (score >= 0 && score <= 100) { // if the score ic valid
             // 5 possibilities: A, B, C, D, F

@@ -59,6 +59,13 @@ public class ReplaceAll {
             }
         }
         return array;
+    }
+    }
+    /*
+    Replace All: Create a method call replaceAll() that pass 3 parameters: integer,array,
 
-    }
-    }
+     */
+
+
+
+

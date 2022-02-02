@@ -7,15 +7,16 @@ public class Replace {
         int[] arr = {1,2,3,4,5};
         arr = replace(arr, 2, 30);
         System.out.println(Arrays.toString(arr));
+
         System.out.println("------------------------------------");
+
         String[] arr2 = {"Java", "Python", "C++", "Ruby"};
         arr2 = replace(arr2, 2, "C#");
         System.out.println(Arrays.toString(arr2));
     }
 
-
-    //
     //replace the elements of the array at given index with the new element
+    //                        {1,2,3,4,5}      200,invalid idx,   30
     public static int[] replace(int[] array, int index, int newElement){
 
         if(index <0 || index > array.length-1){
@@ -66,5 +67,11 @@ public class Replace {
 
 }
 
-
+/*
+  1. replace Task: Create the method named replace that passes three parameter:
+                   integer array, integer index, integer newElement.
+                   Ex:  arr={ 1,2,3,4,5}
+                        replace(arr, 2, 30) ===> {1,2,30,4,5}
+            1.2 Create the same functions for double arrays, char arrays, and String arrays
+ */
 
